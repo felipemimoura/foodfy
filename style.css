@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Cabeçalho */
+header {
+    max-width: 1000px;
+    margin: 50px auto; 
+}
+
+.menu {
+    position: absolute;
+    top: 83px;
+    left: 1100px
+} 
+
+.logo img{
+    margin-top: 36px;
+    max-width: 90px;  
+}
+
+.menu a {
+    font-size: 25px;
+    line-height: 29px;
+    font-family: 'Roboto-regular', sans-serif;
+    color: #111111;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+/* Informações */
+.info {
+    width: 1000px;
+    height: 366px;
+    margin: 0 auto;
+    background-color: #FBDFDB ;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo h2{
+    max-width: 360px;
+    height: 40px;
+    padding-top: 100px;
+    padding-left: 60px;
+    
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.text p {
+    max-width: 360px;
+    opacity: 0.7;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    line-height: 30px;
+    padding-left: 60px;
+}
+
+.img img {
+    position: absolute;
+    left: 55%;
+    top: 19%;
+    max-width: 216px;
+    max-height: 300px;
+}
+
+/* Cards */
+.cartoes h2 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.cards {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.img_card img {
+    border-radius: 15px;
+    height: 140px;
+    width: 300px;
+}
+
+.content_card h4{
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: 'Roboto-regular', sans-serif;
+    
+}
+.chefe_card p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+    margin-top: 5px;
+}
+
+.modal-overlay {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    
+}
+
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal .close-modal {
+    color: black;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+
+
+
+/* Rodapé */
+footer{
+    background-color: #EEEEEE;
+    height: 62px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+footer p {
+    font-size: 14px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

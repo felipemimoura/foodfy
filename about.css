@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Cabeçalho */
+header {
+    max-width: 1000px;
+    margin: 50px auto; 
+}
+.menu {
+    position: absolute;
+    top: 83px;
+
+    left: 1100px
+}
+.logo img{
+    margin-top: 36px;
+    max-width: 90px;
+ 
+    
+}
+
+.menu a {
+    font-size: 25px;
+    line-height: 29px;
+    font-family: 'Roboto-regular', sans-serif;
+    color: #111111;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+/* Informações */
+.about {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.about h2{
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+
+}
+
+
+.about p {
+    margin-top: 20px;
+    font-weight: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+.about h3{
+    margin-top: 20px;
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+
+
+}
+
+
+
+/* Rodapé */
+footer{
+    background-color: #EEEEEE;
+    height: 62px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+footer p {
+    font-size: 14px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
